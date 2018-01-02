@@ -33,7 +33,7 @@ body {
 }
 
 /* line 29, ../sass/_reset.scss */
-ol, ul {
+ul {
   list-style: none;
 }
 
@@ -55,9 +55,9 @@ table {
   border-spacing: 0;
 }
 
-/* line 10, ../sass/_grid.scss */
+/* line 19, ../sass/_grid.scss */
 nav {
-  background-color: #FFF9F3;
+  background-color: #E2BF71;
   position: fixed;
   display: block;
   width: 100%;
@@ -65,105 +65,204 @@ nav {
   box-shadow: 0 6px 10px -10px #222;
   opacity: .95;
 }
-/* line 19, ../sass/_grid.scss */
+/* line 28, ../sass/_grid.scss */
 nav ul {
   display: block;
   width: 23.5em;
   margin: 0 auto;
   position: relative;
 }
-/* line 25, ../sass/_grid.scss */
+/* line 34, ../sass/_grid.scss */
 nav ul li {
   display: inline-block;
   padding: 1em .7em;
 }
 
-/* line 33, ../sass/_grid.scss */
+/* line 42, ../sass/_grid.scss */
 section {
   padding: 5em 1em;
-  box-shadow: 0 6px 10px -10px #222;
+  box-shadow: inset 0 9px 10px -8px rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  clear: both;
 }
 
-/* line 38, ../sass/_grid.scss */
+/* line 49, ../sass/_grid.scss */
 #intro {
   background-color: #893F61;
   padding-top: 10em;
 }
 
-/* line 43, ../sass/_grid.scss */
+/* line 54, ../sass/_grid.scss */
 #ourstory {
   background-color: #FFF9F3;
 }
 
-/* line 47, ../sass/_grid.scss */
+/* line 58, ../sass/_grid.scss */
 #information {
   background-color: #82936D;
 }
 
-/* line 51, ../sass/_grid.scss */
+/* line 62, ../sass/_grid.scss */
 #party {
   background-color: #FFF9F3;
 }
 
-/* line 55, ../sass/_grid.scss */
+/* line 66, ../sass/_grid.scss */
 #outro {
   background-color: #E2BF71;
 }
 
-/* line 59, ../sass/_grid.scss */
+/* line 70, ../sass/_grid.scss */
 div {
   margin-bottom: 1em;
 }
 
+/* line 74, ../sass/_grid.scss */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+/* line 83, ../sass/_grid.scss */
+#party img {
+  width: 40%;
+  margin: 0;
+  display: inline;
+  margin-bottom: 1em;
+}
+
+/* line 90, ../sass/_grid.scss */
+#party li {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 95, ../sass/_grid.scss */
+#party p {
+  margin-bottom: 0;
+}
+
+/* line 99, ../sass/_grid.scss */
+#party h2 {
+  margin-bottom: 0;
+}
+
+@media (min-width: 48em) {
+  /* line 104, ../sass/_grid.scss */
+  .mara, .bridesmaids {
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+  }
+
+  /* line 107, ../sass/_grid.scss */
+  .phil, .groomsmen {
+    width: 40%;
+    float: right;
+    padding-right: 5%;
+  }
+
+  /* line 110, ../sass/_grid.scss */
+  #intro img {
+    width: 60%;
+  }
+
+  /* line 113, ../sass/_grid.scss */
+  #information p {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  /* line 117, ../sass/_grid.scss */
+  #party img {
+    margin-bottom: 3em;
+  }
+
+  /* line 120, ../sass/_grid.scss */
+  #party h2 {
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 70em) {
+  /* line 126, ../sass/_grid.scss */
+  .contentwrapper {
+    width: 60em;
+    margin: 0 auto;
+  }
+}
 /* line 31, ../sass/_type.scss */
 h1 {
   font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 36pt;
+  font-size: 48pt;
   text-align: center;
   color: #E2BF71;
   margin-bottom: 1em;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* line 35, ../sass/_type.scss */
-#outro h1 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 36pt;
-  text-align: center;
+#intro h1 {
+  margin-bottom: .5em;
   color: #E2BF71;
-  margin-bottom: 1em;
-  color: #FFF9F3;
 }
 
 /* line 40, ../sass/_type.scss */
+#outro h1 {
+  color: #FFF9F3;
+}
+
+/* line 44, ../sass/_type.scss */
+#ourstory h1 {
+  color: #893F61;
+}
+
+/* line 48, ../sass/_type.scss */
+#party h1 {
+  color: #82936D;
+}
+
+/* line 52, ../sass/_type.scss */
 h2 {
   font-family: 'Bree Serif', cursive;
   font-size: 18pt;
   line-height: 1.7em;
   color: #544C51;
   text-align: center;
+  margin-bottom: 1em;
 }
 
-/* line 44, ../sass/_type.scss */
+/* line 57, ../sass/_type.scss */
 p {
   font-family: 'Bree Serif', serif;
   font-size: 12pt;
   line-height: 1.7em;
   color: #544C51;
-  text-align: center;
   margin-bottom: 1em;
 }
 
-/* line 49, ../sass/_type.scss */
-#information p {
-  font-family: 'Bree Serif', serif;
-  font-size: 12pt;
-  line-height: 1.7em;
-  color: #544C51;
-  text-align: center;
-  color: #FFF9F3;
+/* line 62, ../sass/_type.scss */
+p.marasignature {
+  text-align: right;
+  color: #893F61;
 }
 
-/* line 54, ../sass/_type.scss */
+/* line 67, ../sass/_type.scss */
+p.philsignature {
+  text-align: right;
+  color: #82936D;
+}
+
+/* line 72, ../sass/_type.scss */
+#information p {
+  color: #FFF9F3;
+  text-align: center;
+}
+
+/* line 77, ../sass/_type.scss */
 li {
   font-family: 'Bree Serif', serif;
   font-size: 12pt;
@@ -172,12 +271,24 @@ li {
   text-align: center;
 }
 
-/* line 58, ../sass/_type.scss */
+/* line 82, ../sass/_type.scss */
+ol {
+  margin-bottom: 1em;
+}
+/* line 85, ../sass/_type.scss */
+ol li {
+  text-align: left;
+  margin-left: 3em;
+}
+
+/* line 91, ../sass/_type.scss */
 nav li {
+  color: #FFF9F3;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   transition: color .3s;
 }
 
-/* line 62, ../sass/_type.scss */
+/* line 97, ../sass/_type.scss */
 nav li:hover {
-  color: #82936D;
+  color: #893F61;
 }

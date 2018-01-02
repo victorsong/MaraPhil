@@ -4,11 +4,20 @@ $green: #82936D;
 $mustard: #E2BF71;
 $stone: #544C51;
 
+@mixin colone {
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+}
 
-
+@mixin coltwo {
+	width: 40%;
+	float: right;
+	padding-right: 5%;
+}
 
 nav {
-    background-color: $cream;
+    background-color: $mustard;
     position: fixed;
     display: block;
     width: 100%;
@@ -32,7 +41,9 @@ nav {
 
 section {
 	padding: 5em 1em;
-	box-shadow: 0 6px 10px -10px #222;
+	box-shadow: inset 0 9px 10px -8px rgba(0,0,0,.4);
+	overflow: auto;
+	clear: both;
 }
 
 #intro {
@@ -58,4 +69,62 @@ section {
 
 div {
 	margin-bottom: 1em;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 6px -6px #222;
+}
+
+#party img {
+	width: 40%;
+	margin: 0;
+	display: inline;
+	margin-bottom: 1em;
+}
+
+#party li {
+	display: inline-block;
+	width: 100%;
+}
+
+#party p {
+	margin-bottom: 0;
+}
+
+#party h2 {
+	margin-bottom: 0;
+}
+
+@media (min-width: 48em) {
+	.mara, .bridesmaids {
+		@include colone;
+	}
+	.phil, .groomsmen {
+		@include coltwo;
+	}
+    #intro img {
+    	width: 60%;
+    }
+    #information p {
+    	width: 40%;
+    	margin: 0 auto;
+    }
+    #party img {
+    	margin-bottom: 3em;
+    }
+    #party h2 {
+    	margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 70em) {
+	.contentwrapper {
+		width: 60em;
+		margin: 0 auto;
+	}
 }
