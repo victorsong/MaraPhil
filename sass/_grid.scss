@@ -17,6 +17,7 @@ $stone: #544C51;
 }
 
 nav {
+	z-index: 999;
     background-color: $mustard;
     position: fixed;
     display: block;
@@ -80,11 +81,22 @@ img {
 	box-shadow: 0 4px 6px -6px #222;
 }
 
+#intro img {
+
+	position: relative;
+	width: 60%;
+	margin: 0 20%;
+	display: inline;
+	margin-bottom: 1em;
+	border-radius: 50%;
+}
+
 #party img {
 	width: 40%;
 	margin: 0;
 	display: inline;
 	margin-bottom: 1em;
+	border-radius: 50%;
 }
 
 #party li {
@@ -101,15 +113,12 @@ img {
 }
 
 @media (min-width: 48em) {
-	.mara, .bridesmaids {
+	.mara {
 		@include colone;
 	}
-	.phil, .groomsmen {
+	.phil {
 		@include coltwo;
 	}
-    #intro img {
-    	width: 60%;
-    }
     #information p {
     	width: 40%;
     	margin: 0 auto;

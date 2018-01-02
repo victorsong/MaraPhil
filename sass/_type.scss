@@ -33,7 +33,6 @@ h1 {
 }
 
 #intro h1 {
-	margin-bottom: .5em;
 	color: $mustard;
 }
 
@@ -54,9 +53,17 @@ h2 {
 	margin-bottom: 1em;
 }
 
+#intro h2 {
+	color: $cream;
+}
+
 p {
 	@include typeBody;
 	margin-bottom: 1em;
+}
+
+#intro p {
+	color: $cream;
 }
 
 p.marasignature {
