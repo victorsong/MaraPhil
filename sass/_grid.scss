@@ -1,0 +1,61 @@
+$cream: #FFF9F3;
+$wine: #893F61;
+$green: #82936D;
+$mustard: #E2BF71;
+$stone: #544C51;
+
+
+
+
+nav {
+    background-color: $cream;
+    position: fixed;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 10px -10px #222;
+    opacity: .95;
+
+	ul {
+		display: block;
+		width: 23.5em;
+		margin: 0 auto;
+		position: relative;
+
+		li {
+			display: inline-block;
+			padding: 1em .7em;
+		}
+	}
+}
+
+
+section {
+	padding: 5em 1em;
+	box-shadow: 0 6px 10px -10px #222;
+}
+
+#intro {
+	background-color: $wine;
+	padding-top: 10em;
+}
+
+#ourstory {
+	background-color: $cream;
+}
+
+#information {
+	background-color: $green;
+}
+
+#party {
+	background-color: $cream;
+}
+
+#outro {
+	background-color: $mustard;
+}
+
+div {
+	margin-bottom: 1em;
+}

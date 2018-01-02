@@ -1,0 +1,183 @@
+/* line 1, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 22, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 29, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 32, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 35, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 10, ../sass/_grid.scss */
+nav {
+  background-color: #FFF9F3;
+  position: fixed;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px -10px #222;
+  opacity: .95;
+}
+/* line 19, ../sass/_grid.scss */
+nav ul {
+  display: block;
+  width: 23.5em;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 25, ../sass/_grid.scss */
+nav ul li {
+  display: inline-block;
+  padding: 1em .7em;
+}
+
+/* line 33, ../sass/_grid.scss */
+section {
+  padding: 5em 1em;
+  box-shadow: 0 6px 10px -10px #222;
+}
+
+/* line 38, ../sass/_grid.scss */
+#intro {
+  background-color: #893F61;
+  padding-top: 10em;
+}
+
+/* line 43, ../sass/_grid.scss */
+#ourstory {
+  background-color: #FFF9F3;
+}
+
+/* line 47, ../sass/_grid.scss */
+#information {
+  background-color: #82936D;
+}
+
+/* line 51, ../sass/_grid.scss */
+#party {
+  background-color: #FFF9F3;
+}
+
+/* line 55, ../sass/_grid.scss */
+#outro {
+  background-color: #E2BF71;
+}
+
+/* line 59, ../sass/_grid.scss */
+div {
+  margin-bottom: 1em;
+}
+
+/* line 31, ../sass/_type.scss */
+h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 36pt;
+  text-align: center;
+  color: #E2BF71;
+  margin-bottom: 1em;
+}
+
+/* line 35, ../sass/_type.scss */
+#outro h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 36pt;
+  text-align: center;
+  color: #E2BF71;
+  margin-bottom: 1em;
+  color: #FFF9F3;
+}
+
+/* line 40, ../sass/_type.scss */
+h2 {
+  font-family: 'Bree Serif', cursive;
+  font-size: 18pt;
+  line-height: 1.7em;
+  color: #544C51;
+  text-align: center;
+}
+
+/* line 44, ../sass/_type.scss */
+p {
+  font-family: 'Bree Serif', serif;
+  font-size: 12pt;
+  line-height: 1.7em;
+  color: #544C51;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* line 49, ../sass/_type.scss */
+#information p {
+  font-family: 'Bree Serif', serif;
+  font-size: 12pt;
+  line-height: 1.7em;
+  color: #544C51;
+  text-align: center;
+  color: #FFF9F3;
+}
+
+/* line 54, ../sass/_type.scss */
+li {
+  font-family: 'Bree Serif', serif;
+  font-size: 12pt;
+  line-height: 1.7em;
+  color: #544C51;
+  text-align: center;
+}
+
+/* line 58, ../sass/_type.scss */
+nav li {
+  transition: color .3s;
+}
+
+/* line 62, ../sass/_type.scss */
+nav li:hover {
+  color: #82936D;
+}
