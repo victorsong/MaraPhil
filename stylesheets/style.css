@@ -179,16 +179,17 @@ img {
 
   /* line 117, ../sass/_grid.scss */
   #party img {
+    width: 60%;
     margin-bottom: 3em;
   }
 
-  /* line 120, ../sass/_grid.scss */
+  /* line 121, ../sass/_grid.scss */
   #party h2 {
     margin-bottom: 1em;
   }
 }
 @media (min-width: 70em) {
-  /* line 126, ../sass/_grid.scss */
+  /* line 127, ../sass/_grid.scss */
   .contentwrapper {
     width: 60em;
     margin: 0 auto;
