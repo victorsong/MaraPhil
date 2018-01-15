@@ -6,7 +6,7 @@ $stone: #544C51;
 
 @mixin typeBody {
 	font-family: 'Bree Serif', serif;
-	font-size: 12pt;
+	font-size: 14pt;
 	line-height: 1.7em;
 	color: $stone;
 }
@@ -53,8 +53,25 @@ h2 {
 	margin-bottom: 1em;
 }
 
+#party h2 {
+	@include typeDisplay;
+	font-size: 24pt;
+}
+
+#party .mara h2 {
+	color: $wine;
+}
+
+#party .phil h2 {
+	color: $green;
+}
+
 #intro h2 {
 	color: $cream;
+}
+
+h3 {
+	@include typeHeader;
 }
 
 p {
@@ -79,6 +96,10 @@ p.philsignature {
 #information p {
 	color: $cream;
 	text-align: center;
+}
+
+#party p {
+	margin-bottom: 1em;
 }
 
 li {

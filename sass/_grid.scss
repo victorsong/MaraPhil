@@ -28,7 +28,7 @@ nav {
 
 	ul {
 		display: block;
-		width: 23.5em;
+		width: 27em;
 		margin: 0 auto;
 		position: relative;
 
@@ -87,7 +87,7 @@ img {
 	width: 60%;
 	margin: 0 20%;
 	display: inline;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 	border-radius: 50%;
 }
 
@@ -95,8 +95,8 @@ img {
 	width: 40%;
 	margin: 0;
 	display: inline;
-	margin-bottom: 1em;
 	border-radius: 50%;
+	margin-bottom: .5em;
 }
 
 #party li {
@@ -104,13 +104,6 @@ img {
 	width: 100%;
 }
 
-#party p {
-	margin-bottom: 0;
-}
-
-#party h2 {
-	margin-bottom: 0;
-}
 
 @media (min-width: 48em) {
 	.mara {
@@ -125,16 +118,18 @@ img {
     }
     #party img {
     	width: 60%;
-    	margin-bottom: 3em;
     }
     #party h2 {
     	margin-bottom: 1em;
     }
+    #party p {
+        margin-bottom: 3em;
+    }
 }
 
-@media (min-width: 70em) {
+@media (min-width: 90em) {
 	.contentwrapper {
-		width: 60em;
+		width: 80em;
 		margin: 0 auto;
 	}
 }
