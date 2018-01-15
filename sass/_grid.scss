@@ -101,16 +101,24 @@ img {
 
 #party li {
 	display: inline-block;
-	width: 100%;
+	margin-bottom: 1.5em;
 }
 
+.hiddenmobile {
+	display: none;
+}
 
 @media (min-width: 48em) {
+	.hiddenmobile {
+		display: inherit;
+	}
 	.mara {
 		@include colone;
+		clear: left;
 	}
 	.phil {
 		@include coltwo;
+		clear: right;
 	}
     #information p {
     	width: 40%;

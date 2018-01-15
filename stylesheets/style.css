@@ -291,47 +291,59 @@ img {
 /* line 102, ../sass/_grid.scss */
 #party li {
   display: inline-block;
-  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+/* line 107, ../sass/_grid.scss */
+.hiddenmobile {
+  display: none;
 }
 
 @media (min-width: 48em) {
-  /* line 109, ../sass/_grid.scss */
+  /* line 112, ../sass/_grid.scss */
+  .hiddenmobile {
+    display: inherit;
+  }
+
+  /* line 115, ../sass/_grid.scss */
   .mara {
     width: 40%;
     float: left;
     padding-left: 5%;
+    clear: left;
   }
 
-  /* line 112, ../sass/_grid.scss */
+  /* line 119, ../sass/_grid.scss */
   .phil {
     width: 40%;
     float: right;
     padding-right: 5%;
+    clear: right;
   }
 
-  /* line 115, ../sass/_grid.scss */
+  /* line 123, ../sass/_grid.scss */
   #information p {
     width: 40%;
     margin: 0 auto;
   }
 
-  /* line 119, ../sass/_grid.scss */
+  /* line 127, ../sass/_grid.scss */
   #party img {
     width: 60%;
   }
 
-  /* line 122, ../sass/_grid.scss */
+  /* line 130, ../sass/_grid.scss */
   #party h2 {
     margin-bottom: 1em;
   }
 
-  /* line 125, ../sass/_grid.scss */
+  /* line 133, ../sass/_grid.scss */
   #party p {
     margin-bottom: 3em;
   }
 }
 @media (min-width: 90em) {
-  /* line 131, ../sass/_grid.scss */
+  /* line 139, ../sass/_grid.scss */
   .contentwrapper {
     width: 80em;
     margin: 0 auto;
