@@ -73,6 +73,11 @@ h3 {
 	@include typeHeader;
 }
 
+h4 {
+	@include typeHeader;
+	font-size: 16pt;
+}
+
 p {
 	@include typeBody;
 	margin-bottom: 1em;
