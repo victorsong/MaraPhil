@@ -34,6 +34,7 @@ h1 {
 }
 
 #intro h1 {
+	padding-top: 0;
 	color: $mustard;
 }
 
@@ -56,15 +57,11 @@ h2 {
 
 #party h2 {
 	@include typeDisplay;
-	font-size: 24pt;
+	font-size: 30pt;
 	text-shadow: none;
 }
 
-#party .mara h2 {
-	color: $wine;
-}
-
-#party .phil h2 {
+#party h2 {
 	color: $green;
 }
 
@@ -87,7 +84,7 @@ p {
 
 p.marasignature {
 	text-align: right;
-	color: $wine;
+	color: $green;
 }
 
 p.philsignature {

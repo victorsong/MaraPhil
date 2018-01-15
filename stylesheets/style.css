@@ -68,25 +68,26 @@ h1 {
 
 /* line 36, ../sass/_type.scss */
 #intro h1 {
+  padding-top: 0;
   color: #E2BF71;
 }
 
-/* line 40, ../sass/_type.scss */
+/* line 41, ../sass/_type.scss */
 #outro h1 {
   color: #FFF9F3;
 }
 
-/* line 44, ../sass/_type.scss */
+/* line 45, ../sass/_type.scss */
 #ourstory h1 {
   color: #893F61;
 }
 
-/* line 48, ../sass/_type.scss */
+/* line 49, ../sass/_type.scss */
 #party h1 {
   color: #82936D;
 }
 
-/* line 52, ../sass/_type.scss */
+/* line 53, ../sass/_type.scss */
 h2 {
   font-family: 'Bree Serif', cursive;
   font-size: 18pt;
@@ -96,7 +97,7 @@ h2 {
   margin-bottom: 1em;
 }
 
-/* line 57, ../sass/_type.scss */
+/* line 58, ../sass/_type.scss */
 #party h2 {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 48pt;
@@ -104,26 +105,21 @@ h2 {
   color: #E2BF71;
   margin-bottom: 1em;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  font-size: 24pt;
+  font-size: 30pt;
   text-shadow: none;
 }
 
-/* line 63, ../sass/_type.scss */
-#party .mara h2 {
-  color: #893F61;
-}
-
-/* line 67, ../sass/_type.scss */
-#party .phil h2 {
+/* line 64, ../sass/_type.scss */
+#party h2 {
   color: #82936D;
 }
 
-/* line 71, ../sass/_type.scss */
+/* line 68, ../sass/_type.scss */
 #intro h2 {
   color: #FFF9F3;
 }
 
-/* line 75, ../sass/_type.scss */
+/* line 72, ../sass/_type.scss */
 h3 {
   font-family: 'Bree Serif', cursive;
   font-size: 18pt;
@@ -132,7 +128,7 @@ h3 {
   text-align: center;
 }
 
-/* line 79, ../sass/_type.scss */
+/* line 76, ../sass/_type.scss */
 p {
   font-family: 'Bree Serif', serif;
   font-size: 14pt;
@@ -141,35 +137,35 @@ p {
   margin-bottom: 1em;
 }
 
-/* line 84, ../sass/_type.scss */
+/* line 81, ../sass/_type.scss */
 #intro p {
   color: #FFF9F3;
 }
 
-/* line 88, ../sass/_type.scss */
+/* line 85, ../sass/_type.scss */
 p.marasignature {
   text-align: right;
-  color: #893F61;
+  color: #82936D;
 }
 
-/* line 93, ../sass/_type.scss */
+/* line 90, ../sass/_type.scss */
 p.philsignature {
   text-align: right;
   color: #82936D;
 }
 
-/* line 98, ../sass/_type.scss */
+/* line 95, ../sass/_type.scss */
 #information p {
   color: #FFF9F3;
   text-align: center;
 }
 
-/* line 103, ../sass/_type.scss */
+/* line 100, ../sass/_type.scss */
 #party p {
   margin-bottom: 1em;
 }
 
-/* line 107, ../sass/_type.scss */
+/* line 104, ../sass/_type.scss */
 li {
   font-family: 'Bree Serif', serif;
   font-size: 14pt;
@@ -178,24 +174,24 @@ li {
   text-align: center;
 }
 
-/* line 112, ../sass/_type.scss */
+/* line 109, ../sass/_type.scss */
 ol {
   margin-bottom: 1em;
 }
-/* line 115, ../sass/_type.scss */
+/* line 112, ../sass/_type.scss */
 ol li {
   text-align: left;
   margin-left: 3em;
 }
 
-/* line 121, ../sass/_type.scss */
+/* line 118, ../sass/_type.scss */
 nav li {
   color: #FFF9F3;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   transition: color .3s;
 }
 
-/* line 127, ../sass/_type.scss */
+/* line 124, ../sass/_type.scss */
 nav li:hover {
   color: #893F61;
 }
