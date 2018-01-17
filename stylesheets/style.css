@@ -220,7 +220,7 @@ nav {
 /* line 29, ../sass/_grid.scss */
 nav ul {
   display: block;
-  width: 27em;
+  width: 27.5em;
   margin: 0 auto;
   position: relative;
 }
