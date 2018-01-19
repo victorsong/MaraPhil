@@ -92,6 +92,10 @@ h4 {
 	font-size: 16pt;
 }
 
+#party h4 {
+	margin-bottom: .7em;
+}
+
 p {
 	@include typeBody;
 	margin-bottom: 1em;
@@ -119,6 +123,7 @@ p.philsignature {
 
 #party p {
 	margin-bottom: 1em;
+	text-align: left;
 }
 
 li {
@@ -170,4 +175,31 @@ nav li:hover {
 
 .listheader {
 	margin-top: 1em;
+}
+
+.toplink {
+	clear: both;
+	text-align: center;
+	padding-top: 5em;
+
+	a {
+		@include typeBody;
+		text-decoration: none;
+	}
+}
+
+#intro .toplink a {
+	color: $mustard;
+}
+
+#ourstory .toplink a {
+	color: $wine;
+}
+
+#information .toplink a {
+	color: $mustard;
+}
+
+#party .toplink a {
+	color: $green;
 }
