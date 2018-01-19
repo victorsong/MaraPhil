@@ -3,6 +3,7 @@ $wine: #893F61;
 $green: #82936D;
 $mustard: #E2BF71;
 $stone: #544C51;
+$rose: #e5c0c9;
 
 @mixin colone {
 	width: 40%;
@@ -124,10 +125,6 @@ img {
 		@include coltwo;
 		clear: right;
 	}
-    #information p {
-    	width: 40%;
-    	margin: 0 auto;
-    }
     #party img {
     	width: 60%;
     }

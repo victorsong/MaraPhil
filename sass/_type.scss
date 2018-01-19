@@ -3,6 +3,7 @@ $wine: #893F61;
 $green: #82936D;
 $mustard: #E2BF71;
 $stone: #544C51;
+$rose: #e5c0c9;
 
 @mixin typeBody {
 	font-family: 'Bree Serif', serif;
@@ -55,6 +56,13 @@ h2 {
 	margin-bottom: 1em;
 }
 
+#information h2 {
+	margin-bottom: 0;
+	margin-top: 1em;
+	color: $mustard;
+	text-align: left;
+}
+
 #party h2 {
 	@include typeDisplay;
 	font-size: 30pt;
@@ -71,6 +79,12 @@ h2 {
 
 h3 {
 	@include typeHeader;
+}
+
+#information h3 {
+	font-size: 14pt;
+	color: $mustard;
+	text-align: left;
 }
 
 h4 {
@@ -99,7 +113,8 @@ p.philsignature {
 
 #information p {
 	color: $cream;
-	text-align: center;
+	text-align: left;
+	margin-bottom: 0;
 }
 
 #party p {
@@ -109,6 +124,13 @@ p.philsignature {
 li {
 	@include typeBody;
 	text-align: center;
+}
+
+#information ul {
+	list-style-type: square;
+	list-style-position: inside;
+	text-indent: -1em;
+    padding-left: 1em;
 }
 
 ol {
@@ -128,4 +150,19 @@ nav li {
 
 nav li:hover {
 	color: $wine;
+}
+
+#information a {
+	@include typeBody;
+	color: $rose;
+	text-decoration: none;
+}
+
+#information a:hover {
+	color: $wine;
+	transition: color .3s;
+}
+
+.listheader {
+	margin-top: 1em;
 }
