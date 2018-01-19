@@ -207,30 +207,35 @@ li {
   text-indent: -1em;
   padding-left: 1em;
 }
+/* line 135, ../sass/_type.scss */
+#information ul li {
+  text-align: left;
+  color: #FFF9F3;
+}
 
-/* line 136, ../sass/_type.scss */
+/* line 141, ../sass/_type.scss */
 ol {
   margin-bottom: 1em;
 }
-/* line 139, ../sass/_type.scss */
+/* line 144, ../sass/_type.scss */
 ol li {
   text-align: left;
   margin-left: 3em;
 }
 
-/* line 145, ../sass/_type.scss */
+/* line 150, ../sass/_type.scss */
 nav li {
   color: #FFF9F3;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   transition: color .3s;
 }
 
-/* line 151, ../sass/_type.scss */
+/* line 156, ../sass/_type.scss */
 nav li:hover {
   color: #893F61;
 }
 
-/* line 155, ../sass/_type.scss */
+/* line 160, ../sass/_type.scss */
 #information a {
   font-family: 'Bree Serif', serif;
   font-size: 14pt;
@@ -240,13 +245,13 @@ nav li:hover {
   text-decoration: none;
 }
 
-/* line 161, ../sass/_type.scss */
+/* line 166, ../sass/_type.scss */
 #information a:hover {
   color: #893F61;
   transition: color .3s;
 }
 
-/* line 166, ../sass/_type.scss */
+/* line 171, ../sass/_type.scss */
 .listheader {
   margin-top: 1em;
 }
