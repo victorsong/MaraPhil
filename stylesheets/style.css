@@ -79,7 +79,7 @@ h1 {
 
 /* line 46, ../sass/_type.scss */
 #ourstory h1 {
-  color: #893F61;
+  color: #581C1D;
 }
 
 /* line 50, ../sass/_type.scss */
@@ -238,7 +238,7 @@ nav li {
 
 /* line 161, ../sass/_type.scss */
 nav li:hover {
-  color: #893F61;
+  color: #581C1D;
 }
 
 /* line 165, ../sass/_type.scss */
@@ -253,7 +253,7 @@ nav li:hover {
 
 /* line 171, ../sass/_type.scss */
 #information a:hover {
-  color: #893F61;
+  color: #581C1D;
   transition: color .3s;
 }
 
@@ -284,7 +284,7 @@ nav li:hover {
 
 /* line 195, ../sass/_type.scss */
 #ourstory .toplink a {
-  color: #893F61;
+  color: #581C1D;
 }
 
 /* line 199, ../sass/_type.scss */
@@ -331,7 +331,7 @@ section {
 
 /* line 51, ../sass/_grid.scss */
 #intro {
-  background-color: #893F61;
+  background-color: #581C1D;
   padding-top: 10em;
 }
 
