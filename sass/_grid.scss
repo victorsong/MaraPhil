@@ -119,7 +119,7 @@ img {
 	}
 	.mara {
 		@include colone;
-		clear: left;
+		clear: both;
 	}
 	.phil {
 		@include coltwo;
